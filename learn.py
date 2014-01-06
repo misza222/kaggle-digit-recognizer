@@ -105,7 +105,7 @@ if __name__ == '__main__':
   #rescaleImage(image, (20,20)).show()
   
   [Xtrain, ytrain] = expandSet(Xtrain, ytrain)
-  Xtrain = rescaleSet(Xtrain, (20,20))
+  #Xtrain = rescaleSet(Xtrain, (20,20))
   #Xtest  = rescaleSet(Xtest,  (20,20))
-  Xcompetition = rescaleSet(Xcompetition,  (20,20))
+  #Xcompetition = rescaleSet(Xcompetition,  (20,20))
   main()

@@ -40,7 +40,7 @@ def main():
   performance = {}
   
   for nr_of_trees in range(1000, 1100, 100):
-    rf = RandomForestClassifier(n_estimators=nr_of_trees, n_jobs=3)
+    rf = RandomForestClassifier(n_estimators=nr_of_trees, n_jobs=-1)
     rf.fit(Xtrain, ytrain)
     #if Xtest
     #  prediction = np.array(predict(Xtest, rf))

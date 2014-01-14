@@ -12,4 +12,4 @@ Computing in the cloud
 If you are interested in running python learning algorithms in the cloud, please
 take a look at the
 [Machine Learning Chef Recipe](https://github.com/misza222/chef-ml-python)
-and help me improve it.
+and help with improving it.
